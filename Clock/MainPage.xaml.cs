@@ -20,13 +20,13 @@ public partial class MainPage : ContentPage
     //	SemanticScreenReader.Announce(CounterBtn.Text);
     //}
 
-    //private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
-    //{
-    //    if (sender is BoxView myBoxView)
-    //    {
-    //        //myBoxView.WidthRequest += 10;
-    //        await myBoxView.RelRotateTo(90, 300);
-    //    }
-    //}
+    private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+        if (sender is BoxView myBoxView)
+        {
+            //myBoxView.WidthRequest += 10;
+            await myBoxView.RelRotateTo(90, 300);
+        }
+    }
 }
 

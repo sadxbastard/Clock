@@ -26,16 +26,17 @@
                  HorizontalOptions="Center"/>
     </FlexLayout>-->
 
-    <!--<Grid BackgroundColor="Azure" >
+    <Grid BackgroundColor="Azure" >
         <BoxView Color="DarkGray"
                  WidthRequest="300"
                  HeightRequest="300"
-                 Grid.Column="0">
+                 Grid.Column="0"
+                 IsVisible="False">
             <BoxView.GestureRecognizers>
                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
             </BoxView.GestureRecognizers>
         </BoxView>
-    </Grid>-->
+    </Grid>
     
     <!--<StackLayout Orientation="Vertical" Spacing="5">  --><!--Компонент позволяющий сложить элементы вертикально или горизонатально в стек--><!-- 
         <Label>
