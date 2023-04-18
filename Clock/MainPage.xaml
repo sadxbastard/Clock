@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Clock.MainPage">
+    
+    
+    
+    <!--<FlexLayout BackgroundColor="White"
+                Direction="Row"
+                AlignItems="Stretch"
+                >
+        <BoxView Color="Red"
+                 CornerRadius="20"
+                 HeightRequest="100"
+                 WidthRequest="100"
+                 HorizontalOptions="Center"/>
+        <BoxView Color="Aqua" 
+                 CornerRadius="20"
+                 HeightRequest="200"
+                 WidthRequest="200"
+                 HorizontalOptions="Center"/>
+        <BoxView Color="Green"
+                 CornerRadius="20"
+                 HeightRequest="300"
+                 WidthRequest="300"
+                 HorizontalOptions="Center"/>
+    </FlexLayout>-->
+
+    <!--<Grid BackgroundColor="Azure" >
+        <BoxView Color="DarkGray"
+                 WidthRequest="300"
+                 HeightRequest="300"
+                 Grid.Column="0">
+            <BoxView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+            </BoxView.GestureRecognizers>
+        </BoxView>
+    </Grid>-->
+    
+    <!--<StackLayout Orientation="Vertical" Spacing="5">  --><!--Компонент позволяющий сложить элементы вертикально или горизонатально в стек--><!-- 
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Hello" TextColor="Aquamarine" FontSize="20" TextDecorations="Strikethrough"/>
+                    <Span Text="World" TextColor="Chocolate" FontAttributes="Italic"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <BoxView Color="Aqua"
+                 HeightRequest="300"
+                 WidthRequest="300"
+                 HorizontalOptions="Center"/>
+    </StackLayout>-->
+
+</ContentPage>
