@@ -4,10 +4,48 @@
              xmlns:local="clr-namespace:Clock"
              x:Class="Clock.MainPage">
 
-    <Grid>
-        <local:patternGrid x:Name="number_first"/>
-    </Grid>
-    
+    <StackLayout Orientation="Horizontal" 
+                 Spacing="20"
+                 HorizontalOptions="CenterAndExpand" 
+                 VerticalOptions="CenterAndExpand">
+        <local:patternGrid x:Name="firstNumber"/>
+        <local:patternGrid x:Name="secondNumber"/>
+        <Grid BackgroundColor="Black"
+              WidthRequest="22"
+              HeightRequest="66">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <BoxView Color="White" Grid.Row="0"/>
+            <BoxView Color="Black" Grid.Row="1"/>
+            <BoxView Color="White" Grid.Row="2"/>
+        </Grid>
+        <local:patternGrid x:Name="thirdNumber"/>
+        <local:patternGrid x:Name="fourthNumber"/>
+        <Grid BackgroundColor="Black"
+              WidthRequest="22"
+              HeightRequest="66">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <BoxView Color="White" Grid.Row="0"/>
+            <BoxView Color="Black" Grid.Row="1"/>
+            <BoxView Color="White" Grid.Row="2"/>
+        </Grid>
+        <local:patternGrid x:Name="fifthNumber"/>
+        <local:patternGrid x:Name="sixthNumber"/>
+    </StackLayout>
+
     <!--<FlexLayout BackgroundColor="White"
                 Direction="Row"
                 AlignItems="Stretch"

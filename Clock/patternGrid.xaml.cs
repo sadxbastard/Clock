@@ -18,6 +18,7 @@ public partial class patternGrid : Grid
 			for(int j = 0; j < myGrid.ColumnDefinitions.Count; j++)
 			{
 				boxViews[i, j] = myGrid.FindByName($"Box{i}{j}") as BoxView;
+                boxViews[i, j].Color = Colors.Black;
 			}
 		}
 
@@ -51,7 +52,9 @@ public partial class patternGrid : Grid
                 boxViews[0, 1].Color = Colors.White;
                 boxViews[0, 2].Color = Colors.White;
                 boxViews[1, 2].Color = Colors.White;
+                boxViews[2, 0].Color = Colors.White;
                 boxViews[2, 1].Color = Colors.White;
+                boxViews[2, 2].Color = Colors.White;
                 boxViews[3, 0].Color = Colors.White;
                 boxViews[4, 0].Color = Colors.White;
                 boxViews[4, 1].Color = Colors.White;
@@ -60,11 +63,13 @@ public partial class patternGrid : Grid
 			case 3:
                 boxViews[0, 0].Color = Colors.White;
                 boxViews[0, 1].Color = Colors.White;
+                boxViews[0, 2].Color = Colors.White;
                 boxViews[1, 2].Color = Colors.White;
                 boxViews[2, 1].Color = Colors.White;
                 boxViews[3, 2].Color = Colors.White;
                 boxViews[4, 0].Color = Colors.White;
                 boxViews[4, 1].Color = Colors.White;
+                boxViews[4, 2].Color = Colors.White;
                 break;
 			case 4:
                 boxViews[0, 0].Color = Colors.White;
@@ -114,13 +119,17 @@ public partial class patternGrid : Grid
                 boxViews[4, 2].Color = Colors.White;
                 break;
 			case 8:
+                boxViews[0, 0].Color = Colors.White;
                 boxViews[0, 1].Color = Colors.White;
+                boxViews[0, 2].Color = Colors.White;
                 boxViews[1, 0].Color = Colors.White;
                 boxViews[1, 2].Color = Colors.White;
                 boxViews[2, 1].Color = Colors.White;
                 boxViews[3, 0].Color = Colors.White;
                 boxViews[3, 2].Color = Colors.White;
+                boxViews[4, 0].Color = Colors.White;
                 boxViews[4, 1].Color = Colors.White;
+                boxViews[4, 2].Color = Colors.White;
                 break;
 			case 9:
                 boxViews[0, 0].Color = Colors.White;
