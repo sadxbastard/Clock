@@ -17,7 +17,7 @@ public partial class patternGrid : Grid
 		{
 			for(int j = 0; j < myGrid.ColumnDefinitions.Count; j++)
 			{
-				boxViews[i, j] = myGrid.FindByName($"{i}{j}") as BoxView;
+				boxViews[i, j] = myGrid.FindByName($"Box{i}{j}") as BoxView;
 			}
 		}
 
