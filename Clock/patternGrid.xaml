@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      x:Class="Clock.patternGrid"
+      x:Name="myGrid"
+      BackgroundColor="Black"
+      WidthRequest="99"
+      HeightRequest="150">
+    <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
+    <BoxView Grid.Column="0" Grid.Row="0" Color="Black" x:Name="00"/>
+    <BoxView Grid.Column="1" Grid.Row="0" Color="Black" x:Name="01"/>
+    <BoxView Grid.Column="2" Grid.Row="0" Color="Black" x:Name="02"/>
+    <BoxView Grid.Column="0" Grid.Row="1" Color="Black" x:Name="10"/>
+    <BoxView Grid.Column="1" Grid.Row="1" Color="Black" x:Name="11"/>
+    <BoxView Grid.Column="2" Grid.Row="1" Color="Black" x:Name="12"/>
+    <BoxView Grid.Column="0" Grid.Row="2" Color="Black" x:Name="20"/>
+    <BoxView Grid.Column="1" Grid.Row="2" Color="Black" x:Name="21"/>
+    <BoxView Grid.Column="2" Grid.Row="2" Color="Black" x:Name="22"/>
+    <BoxView Grid.Column="0" Grid.Row="3" Color="Black" x:Name="30"/>
+    <BoxView Grid.Column="1" Grid.Row="3" Color="Black" x:Name="31"/>
+    <BoxView Grid.Column="2" Grid.Row="3" Color="Black" x:Name="32"/>
+    <BoxView Grid.Column="0" Grid.Row="4" Color="Black" x:Name="40"/>
+    <BoxView Grid.Column="1" Grid.Row="4" Color="Black" x:Name="41"/>
+    <BoxView Grid.Column="2" Grid.Row="4" Color="Black" x:Name="42"/>
+</Grid>
